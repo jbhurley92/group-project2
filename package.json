@@ -1,0 +1,23 @@
+{
+  "name": "group-project2",
+  "version": "1.0.0",
+  "description": "Group project for the Iron Yard",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbhurley92/group-project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbhurley92/group-project2/issues"
+  },
+  "homepage": "https://github.com/jbhurley92/group-project2#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "firebase": "^2.4.2"
+  }
+}
