@@ -23,7 +23,7 @@ module.exports = [{
   id: 4,
   name: 'Childish Gambino',
   type: 'rap',
-  album: 'something',
+  album: 'Camp',
 }, {
   id: 5,
   name: 'The Pretty Reckless',

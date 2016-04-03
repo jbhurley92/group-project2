@@ -28,8 +28,9 @@
   background-color: #a4250e;
 }
 html {
-  background-color: #7a924d;
-  font-family: $helvetica;
+  background-color: white;
+  font-family: Century Gothic, monospace;
+  color: black;
 }
 body {
   @include outer-container;
@@ -39,4 +40,15 @@ h1 {
   font-size: 65px;
   color: #ffffff;
   margin-bottom: 2%;
+  font-family: Century Gothic, monospace;
+  color: cadetblue;
+  text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 3px 0 black;
 }
+/*
+h6 {
+    font-size: 35pt;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, -1px 0 white;
+}
+*/
