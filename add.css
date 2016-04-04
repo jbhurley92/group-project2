@@ -1,0 +1,59 @@
+html {
+    background-color: azure;
+    font-family: Century Gothic, monospace;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 2%;
+    font-family: Century Gothic, monospace;
+    color: cadetblue;
+    text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 3px 0 black;
+    padding-bottom: 40px;
+}
+
+.inputs {
+    margin-left: 30px;
+}
+
+#thing {
+    padding: 20px;
+    font-size: 20pt;
+    background-color: antiquewhite;
+}
+
+
+#cost {
+    padding: 20px;
+    font-size: 20pt;
+    background-color: antiquewhite;
+}
+
+#gotime {
+    padding: 20px;
+    font-size: 20pt;
+    background-color: darkgreen;
+    color: white;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-size: 30pt;
+    border: 2px solid black;
+    border-style: groove;
+}
+
+#things { 
+    margin-left: 20px;
+    list-style-type: none;
+    font-size: 30pt;
+}

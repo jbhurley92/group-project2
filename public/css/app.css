@@ -22,13 +22,13 @@
   padding-top: 2%;
 }
 #adding {
-  background-color: #14711d;
+  background-color: floralwhite;
 }
 #deleting {
-  background-color: #a4250e;
+  background-color: bisque;
 }
 html {
-  background-color: white;
+  background-color: azure;
   font-family: Century Gothic, monospace;
   color: black;
 }
@@ -36,13 +36,15 @@ body {
   @include outer-container;
 }
 h1 {
+  
   text-align: center;
-  font-size: 65px;
+  font-size: 80px;
   color: #ffffff;
   margin-bottom: 2%;
   font-family: Century Gothic, monospace;
   color: cadetblue;
   text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 3px 0 black;
+  padding-bottom: 40px;
 }
 /*
 h6 {
@@ -52,3 +54,38 @@ h6 {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, -1px 0 white;
 }
 */
+    #main {
+    float:left;
+    width:500px;
+    margin-left: 50px;
+    
+    }
+    #sidebar {
+    float:right;
+    width:500px;
+    margin-right: 100px;
+    margin-top: 50px;
+   }
+
+
+a {
+    margin-left: 50px;
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+}
+
+#bottom {
+    margin-top: 20px;
+}
+
+#fire {
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+}
